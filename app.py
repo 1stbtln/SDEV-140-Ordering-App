@@ -19,8 +19,8 @@ class PizzaApp(tk.Tk):
         logo_image_path = "logo.png"  # Logo image for order page
         
         # Load and resize images to fit in the UI
-        self.img_pizza = self.load_image(pizza_image_path, "Pizza Image", (200, 200))  # Load pizza image (200x200)
-        self.img_logo = self.load_image(logo_image_path, "Pizza Logo", (200, 200))  # Load logo image (200x200)
+        self.img_pizza = self.load_image(pizza_image_path, "An image of a shopping bag", (200, 200))  # Load pizza image (200x200)
+        self.img_logo = self.load_image(logo_image_path, "An image of Home Fire Pizza's logo", (200, 200))  # Load logo image (200x200)
 
         # Create container frame to hold different pages
         container = tk.Frame(self, bg="#2e2e2e")
