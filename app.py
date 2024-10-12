@@ -14,8 +14,8 @@ class PizzaApp(tk.Tk):
         pizza_image_path = "bag.png"
         logo_image_path = "logo.png"
                 
-        self.img_pizza = self.load_image(pizza_image_path, "Pizza Image", (200, 200))  # Resize pizza image
-        self.img_logo = self.load_image(logo_image_path, "Pizza Logo", (200, 200))  # Resize logo to 200x200
+        self.img_pizza = self.load_image(pizza_image_path, "Pizza Image", (200, 200))  
+        self.img_logo = self.load_image(logo_image_path, "Pizza Logo", (200, 200))  
 
         container = tk.Frame(self, bg="#2e2e2e")
         container.pack(side="top", fill="both", expand=True)
